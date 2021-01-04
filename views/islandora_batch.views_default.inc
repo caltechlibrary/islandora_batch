@@ -574,7 +574,7 @@ function islandora_batch_views_default_views() {
   $handler->display->display_options['menu']['context'] = 0;
   $handler->display->display_options['menu']['context_only_inline'] = 0;
   $translatables['islandora_batch_sets'] = array(
-    t('main'),
+    t('Main'),
     t('Islandora Batch Ingest Sets'),
     t('more'),
     t('Apply'),
