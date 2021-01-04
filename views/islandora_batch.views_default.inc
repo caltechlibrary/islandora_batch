@@ -21,8 +21,8 @@ function islandora_batch_views_default_views() {
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
-  /* Display: main */
-  $handler = $view->new_display('default', 'main', 'default');
+  /* Display: Main */
+  $handler = $view->new_display('default', 'Main', 'default');
   $handler->display->display_options['title'] = 'Islandora Batch Ingest Queue';
   $handler->display->display_options['css_class'] = 'islandora-batch-view-table';
   $handler->display->display_options['use_more_always'] = FALSE;
@@ -315,7 +315,7 @@ function islandora_batch_views_default_views() {
   $handler->display->display_options['menu']['context'] = 0;
   $handler->display->display_options['menu']['context_only_inline'] = 0;
   $translatables['islandora_batch_queue'] = array(
-    t('main'),
+    t('Main'),
     t('Islandora Batch Ingest Queue'),
     t('more'),
     t('Apply'),
@@ -362,8 +362,8 @@ function islandora_batch_views_default_views() {
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
-  /* Display: main */
-  $handler = $view->new_display('default', 'main', 'default');
+  /* Display: Main */
+  $handler = $view->new_display('default', 'Main', 'default');
   $handler->display->display_options['title'] = 'Islandora Batch Ingest Sets';
   $handler->display->display_options['css_class'] = 'islandora-batch-view-table';
   $handler->display->display_options['use_more_always'] = FALSE;
